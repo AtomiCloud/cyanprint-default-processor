@@ -25,6 +25,7 @@ StartProcessorWithLambda(
     const varEtaConfig: Partial<EtaConfig> = {
       useWith: true,
       tags: ["var__", "__"],
+      autoTrim: [false, false],
       autoEscape: false,
       parse: {
         raw: "~",
